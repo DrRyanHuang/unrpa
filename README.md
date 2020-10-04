@@ -84,8 +84,8 @@ usage: unrpa [-h] [-v] [-s] [-l | -t] [-p PATH] [-m] [--version]
 | -s, --silent         | 不输出没必要的信息                                           |
 | -l, --list           | list the contents of the archive(s) in a flat list.          |
 | -t, --tree           | list the contents of the archive(s) in a tree view           |
-| -p PATH, --path PATH | extract files to the given path (default: the current working directory). |
-| -m, --mkdir          | will make any missing directories in the given extraction path. |
+| -p PATH, --path PATH | 提取文件到指定目录 (默认: 当前工作目录)                      |
+| -m, --mkdir          | 将指定的没有创建的目录一一创建                               |
 | --version            | 查看版本号并退出                                             |
 
 | 高级参数                    | 作用描述                                                     |
